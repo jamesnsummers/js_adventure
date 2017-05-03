@@ -129,4 +129,4 @@ if (adventure === 'y') {
   }
 }
 
-var end = prompt('Thanks for playing!');
+var end = alert('Thanks for playing!');
