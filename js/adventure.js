@@ -1,6 +1,14 @@
+$(document).ready(function() {
+
+console.log('JS IS LINKED');
+
 var yourName, greeting, forReal, adventure, heights, falling, water, traveling,
   outside, carsBooksArchitecture, breath, carsBooksArchitecture, notSure, activeOrRestful,
   roadTrip, butItsSoNice, book, downAndUp, empireState, freeDive, snorkel, onePlaceOrMany;
+
+$('input.startButton').on('click', begin);
+
+function begin() {
 
 yourName = prompt('Oh, hi. I didnt see you there. Whats your name?');
 
@@ -130,3 +138,6 @@ if (adventure === 'y') {
 }
 
 var end = alert('Thanks for playing!');
+}
+
+});
